@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="探索雲端檔案庫：集中瀏覽中國近代史、初三物理及英文學習資料，直接開啟 PDF 或 Word 文件。">
+    <meta name="description" content="探索可以直接使用嘅作品：雲端檔案庫提供學習資料，喵哨站帶你體驗 360° 貓咪塔防生存遊戲。">
     <meta name="theme-color" content="#f4f3ee">
-    <title>作品集 — 雲端檔案庫</title>
-    <link rel="icon" href="favicon.svg?v=5" type="image/svg+xml">
-    <link rel="stylesheet" href="styles.css?v=5">
-    <script src="script.js?v=5" defer></script>
+    <title>作品集 — 雲端檔案庫與喵哨站</title>
+    <link rel="icon" href="favicon.svg?v=6" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css?v=6">
+    <script src="script.js?v=6" defer></script>
   </head>
   <body id="top">
     <a class="skip-link" href="#main" data-i18n="skip">跳至主要內容</a>
@@ -23,14 +23,18 @@
 
       <main id="main" tabindex="-1">
         <section id="work" class="work-section" aria-labelledby="work-title">
-          <div class="page-intro"><div><p class="eyebrow"><span class="tiny-square" aria-hidden="true"></span><span data-i18n="eyebrow">網站與工具</span></p><h1 id="work-title" data-i18n="workTitle">作品，打開就能用。</h1></div><p class="work-count"><span data-i18n="collected">作品目錄</span><span>01</span></p></div>
-          <article class="featured-project" aria-labelledby="project-title">
+          <div class="page-intro"><div><p class="eyebrow"><span class="tiny-square" aria-hidden="true"></span><span data-i18n="eyebrow">網站、工具與遊戲</span></p><h1 id="work-title" data-i18n="workTitle">作品，打開就能用。</h1></div><p class="work-count"><span data-i18n="collected">作品目錄</span><span>02</span></p></div>
+          <nav class="project-index" aria-label="揀選作品" data-i18n-label="projectIndex">
+            <a href="#cloud-drive"><span class="index-number">01</span><span class="index-copy"><strong data-i18n="projectTitle">雲端檔案庫</strong><span data-i18n="indexStudy">搵學習資料</span></span><span aria-hidden="true">↓</span></a>
+            <a href="#cat-outpost"><span class="index-number">02</span><span class="index-copy"><strong data-i18n="gameTitle">喵哨站</strong><span data-i18n="indexGame">玩貓咪塔防</span></span><span aria-hidden="true">↓</span></a>
+          </nav>
+          <article id="cloud-drive" class="featured-project" aria-labelledby="project-title">
             <div class="project-copy">
               <p class="project-eyebrow"><span>01</span><span class="eyebrow-line" aria-hidden="true"></span><span data-i18n="projectCategory">檔案與學習</span></p>
               <h2 id="project-title" data-i18n="projectTitle">雲端檔案庫</h2>
               <p class="project-lede" data-i18n="projectLede">溫習資料，集中一處。</p>
               <p class="project-description" data-i18n="projectDescription">中國近代史、初三物理、英文中英對照。按科目搵資料，選 PDF 或 Word 開啟。</p>
-              <div class="project-actions"><a class="primary-button" href="https://alist-free-drive.onrender.com/GoogleDrive/study" target="_blank" rel="noopener noreferrer"><span data-i18n="openStudy">打開學習資料</span><span aria-hidden="true">↗</span><span class="sr-only" data-i18n="newTab">（於新分頁開啟）</span></a><a class="secondary-link" href="https://alist-free-drive.onrender.com/GoogleDrive/" target="_blank" rel="noopener noreferrer"><span data-i18n="openProject">瀏覽完整網站</span><span aria-hidden="true">↗</span><span class="sr-only" data-i18n="newTab">（於新分頁開啟）</span></a></div>
+              <div class="project-actions"><a class="primary-button" href="https://alist-free-drive.onrender.com/GoogleDrive/study" target="_blank" rel="noopener noreferrer"><span data-i18n="openStudy">打開學習資料</span><span aria-hidden="true">↗</span><span class="sr-only" data-i18n="newTab">（於新分頁開啟）</span></a><a class="secondary-link" href="https://alist-free-drive.onrender.com/GoogleDrive/" target="_blank" rel="noopener noreferrer"><span data-i18n="openProject">瀏覽完整網站</span><span aria-hidden="true">↗</span><span class="sr-only" data-i18n="newTab">（於新分頁開啟）</span></a><a class="secondary-link" href="#resources"><span data-i18n="seeSubjects">揀科目</span><span aria-hidden="true">↓</span></a></div>
               <p class="project-platform">AList <span aria-hidden="true">/</span> Google Drive <span class="format-separator" aria-hidden="true">·</span><span data-i18n="formats">PDF 及 Word</span></p>
             </div>
             <div class="project-visual">
@@ -43,10 +47,29 @@
               <p class="preview-caption"><span class="caption-dot" aria-hidden="true"></span><span data-i18n="previewCaption">網站實際畫面</span><span class="preview-path">/ GoogleDrive / study</span></p>
             </div>
           </article>
+          <article id="cat-outpost" class="featured-project game-project" aria-labelledby="game-title">
+            <div class="project-copy">
+              <p class="project-eyebrow"><span>02</span><span class="eyebrow-line" aria-hidden="true"></span><span data-i18n="gameCategory">瀏覽器遊戲 · 塔防生存</span></p>
+              <h2 id="game-title" data-i18n="gameTitle">喵哨站</h2>
+              <p class="project-lede" data-i18n="gameLede">最後一罐罐罐，交畀你守護。</p>
+              <p class="project-description" data-i18n="gameDescription">帶領貓咪小隊，應付四方來襲嘅敵人。部署炮塔、改裝升級，睇下你可以守幾耐。</p>
+              <div class="game-tags"><span>360°</span><span data-i18n="gamePixel">像素塔防</span><span data-i18n="gameSurvival">無限生存</span></div>
+              <div class="project-actions"><a class="primary-button" href="https://freedomxjayden-web.github.io/cat-outpost-360/" target="_blank" rel="noopener noreferrer"><span data-i18n="playGame">即刻開玩</span><span aria-hidden="true">↗</span><span class="sr-only" data-i18n="newTab">（於新分頁開啟）</span></a></div>
+              <p class="project-platform" data-i18n="gamePlatform">瀏覽器直接玩 · 自動射擊，你專心部署</p>
+            </div>
+            <div class="project-visual">
+              <div class="preview-topline"><span class="preview-label">CAT OUTPOST / 360°</span><span aria-hidden="true">↗</span></div>
+              <a class="browser-preview" href="https://freedomxjayden-web.github.io/cat-outpost-360/" target="_blank" rel="noopener noreferrer" aria-label="開啟喵哨站遊戲（於新分頁開啟）" data-i18n-label="gamePreviewLink">
+                <img class="site-preview game-preview" src="assets/cat-outpost-preview.png" alt="喵哨站開始畫面，三隻像素貓咪與「罐罐喺度，我哋唔退」標語。" data-i18n-alt="gamePreviewAlt" width="740" height="450" loading="lazy">
+                <span class="preview-open"><span data-i18n="playGame">即刻開玩</span><span aria-hidden="true">↗</span><span class="sr-only" data-i18n="newTab">（於新分頁開啟）</span></span>
+              </a>
+              <p class="preview-caption"><span class="caption-dot" aria-hidden="true"></span><span data-i18n="gamePreviewCaption">遊戲實際開始畫面</span><span class="preview-path">/ cat-outpost-360</span></p>
+            </div>
+          </article>
         </section>
 
         <section id="resources" class="resources-section" aria-labelledby="resources-title">
-          <div class="section-heading"><div><p class="eyebrow" data-i18n="insideProject">呢件作品入面有咩？</p><h2 id="resources-title" data-i18n="resourcesTitle">由你要睇嘅科目開始。</h2></div><p class="section-description" data-i18n="resourcesDescription">揀科目，再揀你想用嘅格式。</p></div>
+          <div class="section-heading"><div><p class="eyebrow" data-i18n="insideProject">01 / 雲端檔案庫 · 學習資料</p><h2 id="resources-title" data-i18n="resourcesTitle">由你要睇嘅科目開始。</h2></div><p class="section-description" data-i18n="resourcesDescription">揀科目，再揀你想用嘅格式。</p></div>
           <div class="resources-grid">
             <article class="resource-card" aria-labelledby="history-title"><div class="resource-top"><span class="resource-number">01</span><svg class="resource-icon" viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M6 5h17a3 3 0 0 1 3 3v19H9a3 3 0 0 1-3-3V5Z" stroke="currentColor" stroke-width="1.3"/><path d="M6 23h20M11 10h10M11 14h7" stroke="currentColor" stroke-width="1.3"/></svg></div><h3 id="history-title" data-i18n="historyTitle">中國近代史</h3><p data-i18n="historyDescription">學習資料</p><div class="resource-actions" role="group" aria-label="中國近代史資料格式" data-i18n-label="historyFormats"><a href="https://alist-free-drive.onrender.com/GoogleDrive/study/中國近代史學習資料.pdf" target="_blank" rel="noopener noreferrer">PDF<span aria-hidden="true">↗</span><span class="sr-only" data-i18n="newTab">（於新分頁開啟）</span></a><a href="https://alist-free-drive.onrender.com/GoogleDrive/study/中國近代史學習資料.docx" target="_blank" rel="noopener noreferrer">Word<span aria-hidden="true">↗</span><span class="sr-only" data-i18n="newTab">（於新分頁開啟）</span></a></div></article>
             <article class="resource-card" aria-labelledby="physics-title"><div class="resource-top"><span class="resource-number">02</span><svg class="resource-icon" viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="m19 3-11 15h8l-3 11 12-16h-8l2-10Z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg></div><h3 id="physics-title" data-i18n="physicsTitle">初三物理</h3><p data-i18n="physicsDescription">重點溫習 · 20 頁詳細版</p><div class="resource-actions" role="group" aria-label="初三物理資料格式" data-i18n-label="physicsFormats"><a href="https://alist-free-drive.onrender.com/GoogleDrive/study/初三物理重點溫習_20頁詳細版.pdf" target="_blank" rel="noopener noreferrer">PDF<span aria-hidden="true">↗</span><span class="sr-only" data-i18n="newTab">（於新分頁開啟）</span></a><a href="https://alist-free-drive.onrender.com/GoogleDrive/study/初三物理重點溫習_20頁詳細版.docx" target="_blank" rel="noopener noreferrer">Word<span aria-hidden="true">↗</span><span class="sr-only" data-i18n="newTab">（於新分頁開啟）</span></a></div></article>
