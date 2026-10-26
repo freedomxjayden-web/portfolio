@@ -7,3 +7,5 @@
 https://freedomxjayden-web.github.io/portfolio/
 
 Static HTML, CSS, and JavaScript with Traditional Chinese and English.
+
+Responsive project cards with real screenshots, an accessible image preview dialog, and direct links. Image previews and project links remain usable without JavaScript.
