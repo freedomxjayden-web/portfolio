@@ -3,8 +3,13 @@
 
   const messages = {
     zh: {
-      title: '作品集 — 雲端檔案庫與喵哨站',
-      description: '探索可以直接使用嘅作品：雲端檔案庫提供學習資料，喵哨站帶你體驗 360° 貓咪塔防生存遊戲。',
+      title: '作品集 — 網站、工具與遊戲',
+      description: '探索可以直接使用嘅作品：雲端檔案庫學習資料、喵哨站貓咪塔防，同 Stock Atlas 股票術語及分析工具。',
+      indexStock: '查術語、研究股票', stockCategory: '股票知識與分析', stockLede: '由睇懂術語，到研究一隻股票。',
+      stockDescription: '用白話解釋同例子理解 200 個股票術語，按八大分類搵概念；再由港股或美股代號，開始研究走勢同基本面。',
+      stockTerms: '200 個術語', stockCategories: '八大分類', stockMarkets: '港股及美股', openStock: '探索股票術語', stockAnalysis: '研究一隻股票',
+      stockPlatform: '搜尋術語 · 分類瀏覽 · 收藏概念', stockPreviewLink: '開啟 Stock Atlas 股票術語資料庫（於新分頁開啟）',
+      stockPreviewAlt: 'Stock Atlas 實際術語資料庫，包含搜尋欄、八大知識分類及股票術語卡片。',
       skip: '跳至主要內容', home: '作品集 — 返回頁首', navigation: '主要導覽', language: '網站語言',
       portfolio: '作品集', navWork: '作品', navResources: '資料內容', eyebrow: '網站、工具與遊戲',
       projectIndex: '揀選作品', indexStudy: '搵學習資料', indexGame: '玩貓咪塔防', seeSubjects: '揀科目',
@@ -25,8 +30,13 @@
       allFilesDescription: '想直接睇晒所有檔案？', allFiles: '前往學習資料夾', contact: '聯絡', backTop: '返回頁首',
     },
     en: {
-      title: 'Portfolio — Cloud Drive & Cat Outpost',
-      description: 'Explore projects you can use now: study resources in Cloud Drive and Cat Outpost, a 360° cat tower defence survival game.',
+      title: 'Portfolio — Websites, Tools & Games',
+      description: 'Explore projects you can use now: Cloud Drive study resources, Cat Outpost tower defence, and Stock Atlas stock terms and analysis tools.',
+      indexStock: 'Learn terms, research stocks', stockCategory: 'Stock knowledge & analysis', stockLede: 'Learn the terms. Research a stock.',
+      stockDescription: 'Understand 200 stock terms through plain-language explanations and examples across eight categories. Then enter a Hong Kong or US stock symbol to explore price trends and fundamentals.',
+      stockTerms: '200 stock terms', stockCategories: 'Eight categories', stockMarkets: 'HK & US stocks', openStock: 'Explore stock terms', stockAnalysis: 'Research a stock',
+      stockPlatform: 'Search terms · Browse categories · Save favourites', stockPreviewLink: 'Open Stock Atlas stock glossary (opens in a new tab)',
+      stockPreviewAlt: 'Actual Stock Atlas glossary with a search bar, eight knowledge categories and stock terminology cards.',
       skip: 'Skip to content', home: 'Portfolio — Back to top', navigation: 'Main navigation', language: 'Site language',
       portfolio: 'Portfolio', navWork: 'Work', navResources: 'Resources', eyebrow: 'Websites, tools & games',
       projectIndex: 'Choose a project', indexStudy: 'Find study resources', indexGame: 'Play cat tower defence', seeSubjects: 'Choose a subject',
