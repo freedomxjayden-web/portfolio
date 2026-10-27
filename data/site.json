@@ -1,0 +1,821 @@
+{
+  "version": 11,
+  "updated": "2026-10-27",
+  "base_url": "https://freedomxjayden-web.github.io/portfolio/",
+  "copy": {
+    "zh": {
+      "skip": "跳至主要內容",
+      "portfolio": "作品中心",
+      "homeLabel": "x 嘅作品中心首頁",
+      "navLabel": "主要導覽",
+      "navHome": "首頁",
+      "navWork": "作品",
+      "navAbout": "關於",
+      "navContact": "聯絡",
+      "language": "網站語言",
+      "menu": "選單",
+      "newTab": "（於新分頁開啟）",
+      "live": "已上線",
+      "caseLink": "作品介紹",
+      "actualPreview": "實際畫面",
+      "enlargePreview": "放大預覽",
+      "closePreview": "關閉",
+      "previewPrefix": "放大預覽：",
+      "screenshotNote": "實際畫面截圖；按使用按鈕進入作品網站。",
+      "backTop": "返回頁首",
+      "backWork": "返回作品目錄",
+      "openProject": "打開作品",
+      "caseEyebrow": "設計與實作案例",
+      "featuresTitle": "可以做咩？",
+      "buildTitle": "點樣實作？",
+      "proofTitle": "驗證與限制",
+      "sourceLabel": "參考公開資料",
+      "nextAction": "準備好就打開。",
+      "nextActionText": "直接進入作品網站，開始使用。",
+      "contactGithub": "睇程式碼與公開項目",
+      "contactInstagram": "透過 Instagram 聯絡",
+      "footerLine": "有用、有趣、容易使用。",
+      "previewAlt": "雲端檔案庫實際文件列表，列出歷史、物理及英文嘅 PDF 和 Word 文件。",
+      "gamePreviewAlt": "喵哨站實際遊玩畫面，基地四周已部署炮塔，畫面包含生存狀態及部署選項。",
+      "stockPreviewAlt": "Stock Atlas 實際術語資料庫，顯示搜尋、八大分類同知識卡片。",
+      "insideProject": "雲端檔案庫 / 學習資料",
+      "resourcesTitle": "由你要睇嘅科目開始。",
+      "resourcesDescription": "揀科目，再揀你想用嘅格式。",
+      "historyTitle": "中國近代史",
+      "historyDescription": "學習資料",
+      "historyFormats": "中國近代史資料格式",
+      "physicsTitle": "初三物理",
+      "physicsDescription": "重點溫習 · 20 頁詳細版",
+      "physicsFormats": "初三物理資料格式",
+      "englishTitle": "英文",
+      "englishDescription": "中英對照學習資料",
+      "englishFormats": "英文資料格式",
+      "allFilesDescription": "想直接睇晒所有檔案？",
+      "allFiles": "前往學習資料夾",
+      "cloud-drive-title": "雲端檔案庫",
+      "cloud-drive-category": "學習資料",
+      "cloud-drive-lede": "按科目搵溫習資料，揀 PDF 閱讀或 Word 編輯。",
+      "cloud-drive-description": "歷史、物理、英文，按科目搵資料，選 PDF 或 Word 開啟。",
+      "cloud-drive-cta": "打開學習資料",
+      "cloud-drive-tag0": "三個科目",
+      "cloud-drive-tag1": "PDF 及 Word",
+      "cloud-drive-purpose": "將散落嘅溫習文件集中成一個可以直接瀏覽嘅入口，方便先揀科目，再揀格式。",
+      "cloud-drive-features0": "瀏覽中國近代史、初三物理及英文中英對照資料。",
+      "cloud-drive-features1": "同一科目提供 PDF 同 Word，按閱讀或編輯需要選擇。",
+      "cloud-drive-features2": "由作品集直接進入學習資料夾，或開啟指定文件。",
+      "cloud-drive-build0": "使用 AList 作文件瀏覽介面，連接 Google Drive 嘅文件。整理重點係科目分類、清楚檔名同直接入口。",
+      "cloud-drive-build1": "作品集保存實際文件列表截圖，並提供原網站連結；預覽係靜態圖片，唔會即時讀取雲盤內容。",
+      "cloud-drive-proof0": "文件列表於 2026-10-27 重新擷取，顯示三科各一份 PDF 及 Word。下方六個入口保留原有公開檔名。",
+      "cloud-drive-proof1": "檔案儲存、存取權限同文件預覽由原平台管理；呢件作品使用現成平台，唔代表自行開發雲端儲存服務。",
+      "cloud-drive-proof2": "原網站或檔案移動時，直接連結可能需要更新；截圖唔代表即時可用狀態。",
+      "cloud-drive-flow0": "科目與格式",
+      "cloud-drive-flow1": "AList 文件列表",
+      "cloud-drive-flow2": "Google Drive 文件",
+      "cloud-drive-source0": "AList 文件入口",
+      "cat-outpost-title": "喵哨站",
+      "cat-outpost-category": "塔防遊戲",
+      "cat-outpost-lede": "部署炮塔、改裝升級，守住貓咪最後嘅補給站。",
+      "cat-outpost-description": "部署炮塔、改裝升級，帶領貓咪小隊守住四方來襲嘅敵人。",
+      "cat-outpost-cta": "即刻開玩",
+      "cat-outpost-tag0": "360° 塔防",
+      "cat-outpost-tag1": "無限生存",
+      "cat-outpost-purpose": "以貓咪同最後補給站做主題，將部署、資源分配同生存挑戰放入一個瀏覽器塔防遊戲。",
+      "cat-outpost-features0": "選炮塔、揀空格部署，守住基地四周。",
+      "cat-outpost-features1": "點選炮塔升級或換裝，喺戰況變化時調整防線。",
+      "cat-outpost-features2": "支援暫停、震盪脈衝，同手機點格後確認部署。",
+      "cat-outpost-build0": "遊戲喺瀏覽器本機運行。公開部署包含 HTML 入口、JavaScript 同 CSS 資源，透過 GitHub Pages 發布。",
+      "cat-outpost-build1": "最高生存紀錄同音效設定保存在瀏覽器本機，毋須登入。介面提供選塔、部署、升級同換裝嘅操作流程。",
+      "cat-outpost-proof0": "遊玩畫面擷取於 2026-10-27，展示實際部署狀態。公開操作說明提供鍵盤控制同手機確認部署方式。",
+      "cat-outpost-proof1": "公開儲存庫主要存放正式部署檔案，未公開嘅原始架構、演算法同開發流程不作推測。",
+      "cat-outpost-proof2": "本機紀錄依賴瀏覽器儲存；清除網站資料或轉用其他裝置，紀錄唔會自動同步。",
+      "cat-outpost-flow0": "選塔與部署",
+      "cat-outpost-flow1": "本機遊戲運行",
+      "cat-outpost-flow2": "本機紀錄與設定",
+      "cat-outpost-source0": "公開部署與操作說明",
+      "stock-atlas-title": "Stock Atlas",
+      "stock-atlas-category": "股票工具",
+      "stock-atlas-lede": "查股票術語，再用港股或美股代號研究一隻股票。",
+      "stock-atlas-description": "200 個術語、八大分類，再用港股或美股代號研究走勢同基本面。",
+      "stock-atlas-cta": "打開 Stock Atlas",
+      "stock-atlas-tag0": "200 個術語",
+      "stock-atlas-tag1": "港股及美股",
+      "stock-atlas-purpose": "將股票術語嘅白話解釋同市場研究放喺同一個網站，先理解概念，再睇一隻股票嘅數據。",
+      "stock-atlas-features0": "搜尋 200 個術語，按八大分類或程度篩選，查看例子、公式及相關概念。",
+      "stock-atlas-features1": "收藏術語，重新開啟後喺同一個瀏覽器繼續閱讀。",
+      "stock-atlas-features2": "輸入港股或美股代號，查看價格走勢、技術指標、年度財務及有說明嘅觀察分。",
+      "stock-atlas-build0": "原生 JavaScript 前端部署於 GitHub Pages，負責路由、搜尋、收藏同資料呈現。Cloudflare Worker 處理公開市場資料請求及年度財務資料。",
+      "stock-atlas-build1": "分析程式包含技術指標同評分規則。缺漏數據保留缺漏狀態；資料來源、日期同覆蓋率一齊呈現，唔用示範報價代替真實回應。",
+      "stock-atlas-proof0": "公開驗收紀錄（2026-10-26）記載：200 個術語完整性驗證、14 個 Node 測試，以及正式網站 18 項瀏覽器驗收通過。呢度引用歷史紀錄，唔代表即時服務檢查。",
+      "stock-atlas-proof1": "行情來源係 Yahoo Finance 公開介面，可能延遲、限流或改動。第一版只分析股票；資料同評分用作理解及研究參考。",
+      "stock-atlas-proof2": "收藏儲存在本機，冇跨裝置同步。缺乏可靠數據嘅指標會顯示未提供，唔自行補出數值。",
+      "stock-atlas-flow0": "搜尋或輸入代號",
+      "stock-atlas-flow1": "JavaScript 前端",
+      "stock-atlas-flow2": "Cloudflare Worker",
+      "stock-atlas-source0": "原始碼與架構說明",
+      "stock-atlas-source1": "2026-10-26 驗收紀錄",
+      "heroKicker": "x / 個人作品集",
+      "heroFirst": "將想法，",
+      "heroSecond": "做成可以用嘅作品。",
+      "heroDescription": "搵溫習資料、研究股票，或者玩一場塔防。揀一件，直接開始。",
+      "viewWork": "查看作品",
+      "meetX": "關於 x",
+      "selectedWork": "三件作品，三種探索。",
+      "workKicker": "01 / 代表作品",
+      "workIntro": "由你想做嘅事開始。",
+      "statusNote": "狀態由人工更新，非即時服務監測。",
+      "studyLink": "查看科目與檔案",
+      "techKicker": "02 / 實作技術",
+      "techTitle": "作品使用嘅技術",
+      "techIntro": "由介面到部署，每項技術都有實際作品做例子。",
+      "htmlDetail": "主網站結構、語意化內容同獨立案例頁。",
+      "cssDetail": "響應式版面、統一樣式同鍵盤焦點。",
+      "jsDetail": "中英切換、圖片預覽；Stock Atlas 嘅搜尋同收藏。",
+      "pagesDetail": "主網站、喵哨站同 Stock Atlas 前端嘅靜態發布。",
+      "workerDetail": "Stock Atlas 嘅市場資料請求同財務資料處理。",
+      "techEvidence": "查看實作例子",
+      "journalKicker": "03 / 開發日誌",
+      "journalTitle": "開發紀錄",
+      "journalIntro": "記錄主網站嘅真實改動。",
+      "log3Title": "主網站改版與獨立案例",
+      "log3Text": "統一灰白、深藍、青綠視覺，加入案例、技術、日誌同個人理念；完善手機導覽。",
+      "log3Link": "睇新版作品展示",
+      "log2Title": "由一件作品，擴展到三件",
+      "log2Text": "10 月 25 日加入喵哨站，26 日加入 Stock Atlas，補上各自嘅真實畫面同直接入口。",
+      "log2Link": "查看相關更新",
+      "log1Title": "作品集首次公開發布",
+      "log1Text": "以繁中／英文介紹雲端檔案庫，透過 GitHub Pages 提供公開入口。",
+      "log1Link": "查看首次發布",
+      "aboutKicker": "04 / 關於",
+      "aboutTitle": "我係 x。",
+      "aboutText": "我係 x，製作有用、有趣、容易使用嘅作品。",
+      "principle1": "先有用途",
+      "principle1Text": "清楚講明解決咩需要，令訪客知道可以點用。",
+      "principle2": "用作品說話",
+      "principle2Text": "展示真實畫面同可打開嘅作品，唔只停留喺描述。",
+      "principle3": "持續改善",
+      "principle3Text": "從版面、操作同驗證入手，逐步令體驗更順。",
+      "contactKicker": "05 / 聯絡",
+      "contactTitle": "聯絡",
+      "contactText": "想講下作品、分享使用感受，或者交流新想法，可以喺呢度搵我。",
+      "stockAnalysis": "研究一隻股票",
+      "heroTitle": "有用嘅工具，有趣嘅遊戲。",
+      "directoryTitle": "作品目錄",
+      "log4Title": "精簡目錄，一頁一件作品",
+      "log4Text": "改用三行作品入口，各作品獨立展示；收斂技術、日誌同個人介紹。",
+      "log4Link": "查看作品目錄",
+      "detailsTitle": "實作、來源與限制",
+      "usageTitle": "點樣開始？",
+      "projectNavLabel": "切換作品",
+      "cloud-drive-use0": "打開學習資料夾，揀歷史、物理或英文。",
+      "cloud-drive-use1": "選 PDF 閱讀，或選 Word 開啟可編輯版本。",
+      "cloud-drive-use2": "亦可用下方文件入口，直接開啟指定資料。",
+      "cat-outpost-use0": "打開遊戲，按畫面提示開始。",
+      "cat-outpost-use1": "選炮塔，再揀空格部署；手機需要確認部署。",
+      "cat-outpost-use2": "選中炮塔升級或換裝，隨戰況調整防線。",
+      "stock-atlas-use0": "搜尋術語，或按分類搵你想了解嘅概念。",
+      "stock-atlas-use1": "將想再睇嘅術語加入收藏，喺同一瀏覽器繼續閱讀。",
+      "stock-atlas-use2": "進入股票分析，輸入港股或美股代號查看資料。",
+      "instagram": "Instagram",
+      "github": "GitHub",
+      "menuTitle": "導覽",
+      "menuOpen": "打開導覽選單",
+      "menuClose": "關閉導覽選單",
+      "menuIntro": "我係 x，製作有用、有趣、容易使用嘅作品。",
+      "categoryGames": "遊戲",
+      "categoryWebsites": "網站",
+      "categoryPrograms": "程式",
+      "noPrograms": "暫時未有作品。",
+      "cloud-drive-menu": "歷史、物理、英文溫習資料",
+      "cat-outpost-menu": "貓咪塔防生存遊戲",
+      "stock-atlas-menu": "股票術語與分析工具",
+      "categoryAll": "全部",
+      "categoryNavLabel": "作品分類",
+      "collectionTitle": "全部作品",
+      "gamesDescription": "部署、升級，喺瀏覽器玩一場塔防。",
+      "websitesDescription": "整理學習資料，或者逐步睇懂股票知識。",
+      "programsDescription": "未有公開程式作品，現時可以先探索網站同遊戲。",
+      "emptyTitle": "呢一類，暫時留白。",
+      "emptyText": "程式作品準備好之後，會喺呢度加入。",
+      "browseAll": "探索全部作品",
+      "backCategory": "返回所屬分類",
+      "screenshotDate": "畫面擷取日期",
+      "glossaryView": "術語資料庫",
+      "analysisView": "股票分析入口",
+      "analysisPreviewAlt": "Stock Atlas 股票分析實際介面，提供港股或美股代號輸入、資料來源及開始研究入口；未輸入代號。",
+      "cloud-drive-headline": "三科溫習資料，一處搵齊。",
+      "cat-outpost-headline": "部署防線，守住最後補給站。",
+      "stock-atlas-headline": "由理解術語，到研究股票。",
+      "log5Title": "作品中心與獨立分類",
+      "log5Text": "新增三個分類頁，重整七頁排版、作品封面及大幅實際畫面，保留雙語與直接使用入口。",
+      "log5Link": "瀏覽作品中心",
+      "cloud-drive-coverAlt": "雲端檔案庫封面：紙張層次配上實際文件列表局部，顯示 PDF 同 Word 檔案。",
+      "cat-outpost-coverAlt": "喵哨站封面：放大嘅實際貓咪角色及已部署炮塔嘅戰場局部。",
+      "stock-atlas-coverAlt": "Stock Atlas 封面：實際術語資料庫嘅知識卡片與搜尋入口局部。"
+    },
+    "en": {
+      "skip": "Skip to content",
+      "portfolio": "Project collection",
+      "homeLabel": "x’s project collection home",
+      "navLabel": "Main navigation",
+      "navHome": "Home",
+      "navWork": "Projects",
+      "navAbout": "About",
+      "navContact": "Contact",
+      "language": "Site language",
+      "menu": "Menu",
+      "newTab": " (opens in a new tab)",
+      "live": "Published",
+      "caseLink": "About this project",
+      "actualPreview": "Actual screenshot",
+      "enlargePreview": "View larger",
+      "closePreview": "Close",
+      "previewPrefix": "View larger: ",
+      "screenshotNote": "An actual screenshot. Use the project button to open the live website.",
+      "backTop": "Back to top",
+      "backWork": "Back to all work",
+      "openProject": "Open project",
+      "caseEyebrow": "Design & implementation",
+      "featuresTitle": "What you can do",
+      "buildTitle": "How it works",
+      "proofTitle": "Verification & limitations",
+      "sourceLabel": "Public references",
+      "nextAction": "Ready when you are.",
+      "nextActionText": "Open the project website and get started.",
+      "contactGithub": "Explore code & public projects",
+      "contactInstagram": "Get in touch on Instagram",
+      "footerLine": "Useful, playful, easy to use.",
+      "previewAlt": "Actual Cloud Drive list showing history, physics and English documents in PDF and Word formats.",
+      "gamePreviewAlt": "Actual Cat Outpost gameplay with towers deployed around the base, survival information and deployment controls.",
+      "stockPreviewAlt": "Actual Stock Atlas glossary showing search, eight categories and a knowledge card.",
+      "insideProject": "Cloud Drive / Study resources",
+      "resourcesTitle": "Start with your subject.",
+      "resourcesDescription": "Pick a subject. Choose your format.",
+      "historyTitle": "Chinese history",
+      "historyDescription": "Modern history study resources",
+      "historyFormats": "Chinese history file formats",
+      "physicsTitle": "Year 9 physics",
+      "physicsDescription": "Key revision · 20-page edition",
+      "physicsFormats": "Physics file formats",
+      "englishTitle": "English",
+      "englishDescription": "Chinese–English study resources",
+      "englishFormats": "English file formats",
+      "allFilesDescription": "Want to browse everything?",
+      "allFiles": "Open the study folder",
+      "cloud-drive-title": "Cloud Drive",
+      "cloud-drive-category": "Study resources",
+      "cloud-drive-lede": "Find notes by subject. Read a PDF or edit a Word file.",
+      "cloud-drive-description": "Find history, physics and English notes by subject. Open a PDF or Word file.",
+      "cloud-drive-cta": "Open study resources",
+      "cloud-drive-tag0": "Three subjects",
+      "cloud-drive-tag1": "PDF & Word",
+      "cloud-drive-purpose": "Bring study files into one browsable place, so you can choose a subject and then a format.",
+      "cloud-drive-features0": "Browse modern Chinese history, Year 9 physics and bilingual English resources.",
+      "cloud-drive-features1": "Choose PDF for reading or Word when you want an editable format.",
+      "cloud-drive-features2": "Open the study folder or a specific document directly from the portfolio.",
+      "cloud-drive-build0": "AList provides the file-browsing interface for documents on Google Drive. The focus is clear subjects, descriptive file names and direct access.",
+      "cloud-drive-build1": "The portfolio keeps a screenshot of the actual file list and links to the original site. This static preview does not fetch live drive content.",
+      "cloud-drive-proof0": "The file list was captured again on 2026-10-27, showing a PDF and a Word file for each of three subjects. The six links below retain the original public file names.",
+      "cloud-drive-proof1": "Storage, access permissions and document previews are managed by the original platforms. This project uses existing services rather than a custom cloud-storage platform.",
+      "cloud-drive-proof2": "Direct links may need updating if the site or files move. The screenshot does not indicate live availability.",
+      "cloud-drive-flow0": "Subject & format",
+      "cloud-drive-flow1": "AList file browser",
+      "cloud-drive-flow2": "Google Drive documents",
+      "cloud-drive-source0": "AList file browser",
+      "cat-outpost-title": "Cat Outpost",
+      "cat-outpost-category": "Tower defence",
+      "cat-outpost-lede": "Deploy and upgrade towers. Defend the cats’ last outpost.",
+      "cat-outpost-description": "Deploy and upgrade towers. Defend your cat outpost against enemies from every direction.",
+      "cat-outpost-cta": "Play now",
+      "cat-outpost-tag0": "360° tower defence",
+      "cat-outpost-tag1": "Endless survival",
+      "cat-outpost-purpose": "A browser tower-defence game about cats defending their last supply, combining deployment, resource choices and survival.",
+      "cat-outpost-features0": "Select a tower and an empty tile to defend the area around your base.",
+      "cat-outpost-features1": "Select towers to upgrade or modify them as the battle develops.",
+      "cat-outpost-features2": "Pause the game, trigger a shock pulse, or confirm tile deployment on mobile.",
+      "cat-outpost-build0": "The game runs locally in the browser. Its public deployment includes an HTML entry point, JavaScript and CSS assets, served through GitHub Pages.",
+      "cat-outpost-build1": "Best survival records and sound settings are saved in the local browser without a login. The interface supports selecting, deploying, upgrading and modifying towers.",
+      "cat-outpost-proof0": "Gameplay was captured on 2026-10-27 and shows actual tower deployment. The public instructions document keyboard controls and mobile deployment confirmation.",
+      "cat-outpost-proof1": "The public repository primarily contains deployment files. Undisclosed source architecture, algorithms and development processes are not inferred.",
+      "cat-outpost-proof2": "Local records depend on browser storage. Clearing site data or switching devices does not synchronise those records.",
+      "cat-outpost-flow0": "Select & deploy",
+      "cat-outpost-flow1": "Local browser gameplay",
+      "cat-outpost-flow2": "Local records & settings",
+      "cat-outpost-source0": "Public deployment & controls",
+      "stock-atlas-title": "Stock Atlas",
+      "stock-atlas-category": "Stock research",
+      "stock-atlas-lede": "Look up stock terms, then research a Hong Kong or US stock.",
+      "stock-atlas-description": "Explore 200 terms in eight categories, then research Hong Kong and US stock trends and fundamentals.",
+      "stock-atlas-cta": "Open Stock Atlas",
+      "stock-atlas-tag0": "200 stock terms",
+      "stock-atlas-tag1": "HK & US stocks",
+      "stock-atlas-purpose": "Connect plain-language stock terminology with market research: understand a concept, then explore a stock’s data.",
+      "stock-atlas-features0": "Search 200 terms, filter by eight categories or level, and explore examples, formulas and related concepts.",
+      "stock-atlas-features1": "Save terms and return to them in the same browser.",
+      "stock-atlas-features2": "Enter a Hong Kong or US stock symbol to view price trends, technical indicators, annual financials and an explained observation score.",
+      "stock-atlas-build0": "A vanilla JavaScript frontend on GitHub Pages handles routing, search, favourites and presentation. A Cloudflare Worker handles public market-data requests and annual financial information.",
+      "stock-atlas-build1": "The analysis code contains technical indicators and scoring rules. Missing values remain missing, with sources, dates and coverage shown rather than substituting example prices.",
+      "stock-atlas-proof0": "The public verification record dated 2026-10-26 reports glossary validation, 14 passing Node tests and 18 browser checks on the live site. These are historical results, not live monitoring.",
+      "stock-atlas-proof1": "Data comes from Yahoo Finance’s public interfaces and may be delayed, rate-limited or changed. The first version analyses stocks only; its data and scores support learning and research.",
+      "stock-atlas-proof2": "Favourites are local and do not sync across devices. Indicators without reliable data are shown as unavailable rather than filled with invented values.",
+      "stock-atlas-flow0": "Search or enter a symbol",
+      "stock-atlas-flow1": "JavaScript frontend",
+      "stock-atlas-flow2": "Cloudflare Worker",
+      "stock-atlas-source0": "Source code & architecture",
+      "stock-atlas-source1": "Verification record · 2026-10-26",
+      "heroKicker": "x / Personal portfolio",
+      "heroFirst": "Turning ideas",
+      "heroSecond": "into things you can use.",
+      "heroDescription": "Find study notes, research a stock, or defend a cat outpost. Pick a project and get started.",
+      "viewWork": "Explore the work",
+      "meetX": "About x",
+      "selectedWork": "Three projects. Three ways to explore.",
+      "workKicker": "01 / Selected work",
+      "workIntro": "Start with what you want to do.",
+      "statusNote": "Status labels are maintained manually, not monitored live.",
+      "studyLink": "View subjects & files",
+      "techKicker": "02 / Built with",
+      "techTitle": "Built with",
+      "techIntro": "From interface to deployment, each technology has a project behind it.",
+      "htmlDetail": "Structure, semantic content and standalone case-study pages in this portfolio.",
+      "cssDetail": "Responsive layouts, consistent styles and keyboard focus.",
+      "jsDetail": "Language switching and previews; search and favourites in Stock Atlas.",
+      "pagesDetail": "Static hosting for this portfolio, Cat Outpost and the Stock Atlas frontend.",
+      "workerDetail": "Market-data requests and financial-data handling in Stock Atlas.",
+      "techEvidence": "See it in practice",
+      "journalKicker": "03 / Development journal",
+      "journalTitle": "Development notes",
+      "journalIntro": "A record of actual changes to this portfolio.",
+      "log3Title": "A redesigned portfolio & standalone cases",
+      "log3Text": "Unified the visual system and added case studies, technology notes, a journal and project philosophy, with improved mobile navigation.",
+      "log3Link": "Explore the new showcase",
+      "log2Title": "From one project to three",
+      "log2Text": "Added Cat Outpost on October 25 and Stock Atlas on October 26, each with a real screenshot and direct entry point.",
+      "log2Link": "View the updates",
+      "log1Title": "The portfolio goes live",
+      "log1Text": "Introduced Cloud Drive in Traditional Chinese and English, with a public website on GitHub Pages.",
+      "log1Link": "View the first release",
+      "aboutKicker": "04 / About",
+      "aboutTitle": "I’m x.",
+      "aboutText": "I’m x. I make things that are useful, playful and easy to use.",
+      "principle1": "Start with a purpose",
+      "principle1Text": "Make the purpose clear so people know what they can do.",
+      "principle2": "Let the work speak",
+      "principle2Text": "Show real interfaces and working projects, beyond descriptions.",
+      "principle3": "Keep improving",
+      "principle3Text": "Refine the experience through layout, interaction and verification.",
+      "contactKicker": "05 / Contact",
+      "contactTitle": "Contact",
+      "contactText": "For project feedback, ideas or a conversation about the work, you can find me here.",
+      "stockAnalysis": "Research a stock",
+      "heroTitle": "Useful tools. Playful ideas.",
+      "directoryTitle": "Project directory",
+      "log4Title": "A compact directory. A page for each project.",
+      "log4Text": "Rebuilt the homepage as three project entries, with dedicated project pages and concise technology, journal and personal notes.",
+      "log4Link": "Browse the directory",
+      "detailsTitle": "Implementation, sources & limitations",
+      "usageTitle": "How to get started",
+      "projectNavLabel": "Choose a project",
+      "cloud-drive-use0": "Open the study folder and choose history, physics or English.",
+      "cloud-drive-use1": "Choose a PDF to read or a Word file for an editable version.",
+      "cloud-drive-use2": "Or use the file links below to open a specific resource.",
+      "cat-outpost-use0": "Open the game and follow the start-screen instructions.",
+      "cat-outpost-use1": "Select a tower, then an empty tile. Confirm deployment on mobile.",
+      "cat-outpost-use2": "Select a tower to upgrade or modify it as the battle changes.",
+      "stock-atlas-use0": "Search for a term or browse a category to find a concept.",
+      "stock-atlas-use1": "Save terms to revisit them in the same browser.",
+      "stock-atlas-use2": "Open stock analysis and enter a Hong Kong or US symbol.",
+      "instagram": "Instagram",
+      "github": "GitHub",
+      "menuTitle": "Navigation",
+      "menuOpen": "Open navigation menu",
+      "menuClose": "Close navigation menu",
+      "menuIntro": "I’m x. I make things that are useful, playful and easy to use.",
+      "categoryGames": "Games",
+      "categoryWebsites": "Websites",
+      "categoryPrograms": "Programs",
+      "noPrograms": "No projects here yet.",
+      "cloud-drive-menu": "History, physics & English notes",
+      "cat-outpost-menu": "A cat tower-defence survival game",
+      "stock-atlas-menu": "Stock terms & research tools",
+      "categoryAll": "All projects",
+      "categoryNavLabel": "Project categories",
+      "collectionTitle": "All projects",
+      "gamesDescription": "Deploy, upgrade, and play a tower-defence game in your browser.",
+      "websitesDescription": "Find study resources or make sense of stock terminology and research.",
+      "programsDescription": "No programs have been published yet. Explore the websites and game in the meantime.",
+      "emptyTitle": "Nothing here just yet.",
+      "emptyText": "Programs will appear here when they’re ready.",
+      "browseAll": "Explore all projects",
+      "backCategory": "Back to category",
+      "screenshotDate": "Screenshot captured",
+      "glossaryView": "The glossary",
+      "analysisView": "Stock analysis",
+      "analysisPreviewAlt": "Actual Stock Atlas analysis interface with a Hong Kong or US symbol input, data-source information and a research action; no symbol has been entered.",
+      "cloud-drive-headline": "Three subjects. One place to find them.",
+      "cat-outpost-headline": "Build your defence. Hold the last outpost.",
+      "stock-atlas-headline": "Understand the terms. Research a stock.",
+      "log5Title": "A project collection with dedicated categories",
+      "log5Text": "Added three category pages and redesigned all seven layouts, project covers and large screenshots, keeping bilingual navigation and direct actions.",
+      "log5Link": "Explore the collection",
+      "cloud-drive-coverAlt": "Cloud Drive cover: layered paper with a detail of the actual PDF and Word file list.",
+      "cat-outpost-coverAlt": "Cat Outpost cover: an enlarged actual pixel character and a crop of the deployed battlefield.",
+      "stock-atlas-coverAlt": "Stock Atlas cover: a crop of the actual glossary knowledge card and search field."
+    }
+  },
+  "projects": [
+    {
+      "id": "cloud-drive",
+      "num": "01",
+      "title": [
+        "雲端檔案庫",
+        "Cloud Drive"
+      ],
+      "category": "websites",
+      "lede": [
+        "溫習資料，集中一處。",
+        "Study resources. One place."
+      ],
+      "description": [
+        "歷史、物理、英文，按科目搵資料，選 PDF 或 Word 開啟。",
+        "Find history, physics and English notes by subject. Open a PDF or Word file."
+      ],
+      "tags": [
+        [
+          "三個科目",
+          "Three subjects"
+        ],
+        [
+          "PDF 及 Word",
+          "PDF & Word"
+        ]
+      ],
+      "cta": [
+        "打開學習資料",
+        "Explore study resources"
+      ],
+      "url": "https://alist-free-drive.onrender.com/GoogleDrive/study",
+      "image": "cloud-drive-files.png",
+      "size": [
+        926,
+        301
+      ],
+      "alt": "previewAlt",
+      "kind": "study",
+      "case": {
+        "purpose": [
+          "將散落嘅溫習文件集中成一個可以直接瀏覽嘅入口，方便先揀科目，再揀格式。",
+          "Bring study files into one browsable place, so you can choose a subject and then a format."
+        ],
+        "features": [
+          [
+            "瀏覽中國近代史、初三物理及英文中英對照資料。",
+            "Browse modern Chinese history, Year 9 physics and bilingual English resources."
+          ],
+          [
+            "同一科目提供 PDF 同 Word，按閱讀或編輯需要選擇。",
+            "Choose PDF for reading or Word when you want an editable format."
+          ],
+          [
+            "由作品集直接進入學習資料夾，或開啟指定文件。",
+            "Open the study folder or a specific document directly from the portfolio."
+          ]
+        ],
+        "build": [
+          [
+            "使用 AList 作文件瀏覽介面，連接 Google Drive 嘅文件。整理重點係科目分類、清楚檔名同直接入口。",
+            "AList provides the file-browsing interface for documents on Google Drive. The focus is clear subjects, descriptive file names and direct access."
+          ],
+          [
+            "作品集保存實際文件列表截圖，並提供原網站連結；預覽係靜態圖片，唔會即時讀取雲盤內容。",
+            "The portfolio keeps a screenshot of the actual file list and links to the original site. This static preview does not fetch live drive content."
+          ]
+        ],
+        "flow": [
+          [
+            "科目與格式",
+            "Subject & format"
+          ],
+          [
+            "AList 文件列表",
+            "AList file browser"
+          ],
+          [
+            "Google Drive 文件",
+            "Google Drive documents"
+          ]
+        ],
+        "proof": [
+          [
+            "文件列表截圖擷取於 2026-10-25，收錄三科各一份 PDF 及 Word。下方六個入口保留原有公開檔名。",
+            "The file-list screenshot was captured on 2026-10-25. It shows one PDF and one Word file for each of three subjects. The six links below retain the original public file names."
+          ],
+          [
+            "檔案儲存、存取權限同文件預覽由原平台管理；呢件作品使用現成平台，唔代表自行開發雲端儲存服務。",
+            "Storage, access permissions and document previews are managed by the original platforms. This project uses existing services rather than a custom cloud-storage platform."
+          ],
+          [
+            "原網站或檔案移動時，直接連結可能需要更新；截圖唔代表即時可用狀態。",
+            "Direct links may need updating if the site or files move. The screenshot does not indicate live availability."
+          ]
+        ],
+        "sources": [
+          [
+            "AList 文件入口",
+            "AList file browser",
+            "https://alist-free-drive.onrender.com/GoogleDrive/"
+          ]
+        ]
+      },
+      "date": "2026-10-27",
+      "screenshots": [
+        {
+          "image": "cloud-drive-files.png",
+          "size": [
+            926,
+            301
+          ],
+          "alt": "previewAlt",
+          "date": "2026-10-27"
+        }
+      ],
+      "cover": {
+        "image": "cloud-drive-cover.png",
+        "size": [
+          1200,
+          640
+        ],
+        "alt": "cloud-drive-coverAlt"
+      }
+    },
+    {
+      "id": "cat-outpost",
+      "num": "02",
+      "title": [
+        "喵哨站",
+        "Cat Outpost"
+      ],
+      "category": "games",
+      "lede": [
+        "最後一罐罐罐，交畀你守護。",
+        "One last can. Hold the line."
+      ],
+      "description": [
+        "部署炮塔、改裝升級，帶領貓咪小隊守住四方來襲嘅敵人。",
+        "Deploy and upgrade towers. Defend your cat outpost against enemies from every direction."
+      ],
+      "tags": [
+        [
+          "360° 塔防",
+          "360° tower defence"
+        ],
+        [
+          "無限生存",
+          "Endless survival"
+        ]
+      ],
+      "cta": [
+        "即刻開玩",
+        "Play now"
+      ],
+      "url": "https://freedomxjayden-web.github.io/cat-outpost-360/",
+      "image": "cat-outpost-preview.png",
+      "size": [
+        1280,
+        800
+      ],
+      "alt": "gamePreviewAlt",
+      "kind": "game",
+      "case": {
+        "purpose": [
+          "以貓咪同最後補給站做主題，將部署、資源分配同生存挑戰放入一個瀏覽器塔防遊戲。",
+          "A browser tower-defence game about cats defending their last supply, combining deployment, resource choices and survival."
+        ],
+        "features": [
+          [
+            "選炮塔、揀空格部署，守住基地四周。",
+            "Select a tower and an empty tile to defend the area around your base."
+          ],
+          [
+            "點選炮塔升級或換裝，喺戰況變化時調整防線。",
+            "Select towers to upgrade or modify them as the battle develops."
+          ],
+          [
+            "支援暫停、震盪脈衝，同手機點格後確認部署。",
+            "Pause the game, trigger a shock pulse, or confirm tile deployment on mobile."
+          ]
+        ],
+        "build": [
+          [
+            "遊戲喺瀏覽器本機運行。公開部署包含 HTML 入口、JavaScript 同 CSS 資源，透過 GitHub Pages 發布。",
+            "The game runs locally in the browser. Its public deployment includes an HTML entry point, JavaScript and CSS assets, served through GitHub Pages."
+          ],
+          [
+            "最高生存紀錄同音效設定保存在瀏覽器本機，毋須登入。介面提供選塔、部署、升級同換裝嘅操作流程。",
+            "Best survival records and sound settings are saved in the local browser without a login. The interface supports selecting, deploying, upgrading and modifying towers."
+          ]
+        ],
+        "flow": [
+          [
+            "選塔與部署",
+            "Select & deploy"
+          ],
+          [
+            "本機遊戲運行",
+            "Local browser gameplay"
+          ],
+          [
+            "本機紀錄與設定",
+            "Local records & settings"
+          ]
+        ],
+        "proof": [
+          [
+            "開始畫面擷取於 2026-10-25。公開說明記錄咗鍵盤操作同手機確認部署方式。",
+            "The start-screen screenshot was captured on 2026-10-25. The public README documents keyboard controls and mobile deployment confirmation."
+          ],
+          [
+            "公開儲存庫主要存放正式部署檔案，未公開嘅原始架構、演算法同開發流程不作推測。",
+            "The public repository primarily contains deployment files. Undisclosed source architecture, algorithms and development processes are not inferred."
+          ],
+          [
+            "本機紀錄依賴瀏覽器儲存；清除網站資料或轉用其他裝置，紀錄唔會自動同步。",
+            "Local records depend on browser storage. Clearing site data or switching devices does not synchronise those records."
+          ]
+        ],
+        "sources": [
+          [
+            "公開部署與操作說明",
+            "Public deployment & controls",
+            "https://github.com/freedomxjayden-web/cat-outpost-360"
+          ]
+        ]
+      },
+      "date": "2026-10-27",
+      "screenshots": [
+        {
+          "image": "cat-outpost-preview.png",
+          "size": [
+            1280,
+            800
+          ],
+          "alt": "gamePreviewAlt",
+          "date": "2026-10-27"
+        }
+      ],
+      "cover": {
+        "image": "cat-outpost-cover.png",
+        "size": [
+          1200,
+          640
+        ],
+        "alt": "cat-outpost-coverAlt"
+      }
+    },
+    {
+      "id": "stock-atlas",
+      "num": "03",
+      "title": [
+        "Stock Atlas",
+        "Stock Atlas"
+      ],
+      "category": "websites",
+      "lede": [
+        "由睇懂術語，到研究一隻股票。",
+        "Learn the terms. Research a stock."
+      ],
+      "description": [
+        "200 個術語、八大分類，再用港股或美股代號研究走勢同基本面。",
+        "Explore 200 terms in eight categories, then research Hong Kong and US stock trends and fundamentals."
+      ],
+      "tags": [
+        [
+          "200 個術語",
+          "200 stock terms"
+        ],
+        [
+          "港股及美股",
+          "HK & US stocks"
+        ]
+      ],
+      "cta": [
+        "探索股票術語",
+        "Explore stock terms"
+      ],
+      "url": "https://freedomxjayden-web.github.io/stock-atlas/",
+      "image": "stock-atlas-preview.png",
+      "size": [
+        1280,
+        800
+      ],
+      "alt": "stockPreviewAlt",
+      "kind": "stock",
+      "case": {
+        "purpose": [
+          "將股票術語嘅白話解釋同市場研究放喺同一個網站，先理解概念，再睇一隻股票嘅數據。",
+          "Connect plain-language stock terminology with market research: understand a concept, then explore a stock’s data."
+        ],
+        "features": [
+          [
+            "搜尋 200 個術語，按八大分類或程度篩選，查看例子、公式及相關概念。",
+            "Search 200 terms, filter by eight categories or level, and explore examples, formulas and related concepts."
+          ],
+          [
+            "收藏術語，重新開啟後喺同一個瀏覽器繼續閱讀。",
+            "Save terms and return to them in the same browser."
+          ],
+          [
+            "輸入港股或美股代號，查看價格走勢、技術指標、年度財務及有說明嘅觀察分。",
+            "Enter a Hong Kong or US stock symbol to view price trends, technical indicators, annual financials and an explained observation score."
+          ]
+        ],
+        "build": [
+          [
+            "原生 JavaScript 前端部署於 GitHub Pages，負責路由、搜尋、收藏同資料呈現。Cloudflare Worker 處理公開市場資料請求及年度財務資料。",
+            "A vanilla JavaScript frontend on GitHub Pages handles routing, search, favourites and presentation. A Cloudflare Worker handles public market-data requests and annual financial information."
+          ],
+          [
+            "分析程式包含技術指標同評分規則。缺漏數據保留缺漏狀態；資料來源、日期同覆蓋率一齊呈現，唔用示範報價代替真實回應。",
+            "The analysis code contains technical indicators and scoring rules. Missing values remain missing, with sources, dates and coverage shown rather than substituting example prices."
+          ]
+        ],
+        "flow": [
+          [
+            "搜尋或輸入代號",
+            "Search or enter a symbol"
+          ],
+          [
+            "JavaScript 前端",
+            "JavaScript frontend"
+          ],
+          [
+            "Cloudflare Worker",
+            "Cloudflare Worker"
+          ]
+        ],
+        "proof": [
+          [
+            "公開驗收紀錄（2026-10-26）記載：200 個術語完整性驗證、14 個 Node 測試，以及正式網站 18 項瀏覽器驗收通過。呢度引用歷史紀錄，唔代表即時服務檢查。",
+            "The public verification record dated 2026-10-26 reports glossary validation, 14 passing Node tests and 18 browser checks on the live site. These are historical results, not live monitoring."
+          ],
+          [
+            "行情來源係 Yahoo Finance 公開介面，可能延遲、限流或改動。第一版只分析股票；資料同評分用作理解及研究參考。",
+            "Data comes from Yahoo Finance’s public interfaces and may be delayed, rate-limited or changed. The first version analyses stocks only; its data and scores support learning and research."
+          ],
+          [
+            "收藏儲存在本機，冇跨裝置同步。缺乏可靠數據嘅指標會顯示未提供，唔自行補出數值。",
+            "Favourites are local and do not sync across devices. Indicators without reliable data are shown as unavailable rather than filled with invented values."
+          ]
+        ],
+        "sources": [
+          [
+            "原始碼與架構說明",
+            "Source code & architecture",
+            "https://github.com/freedomxjayden-web/stock-atlas"
+          ],
+          [
+            "2026-10-26 驗收紀錄",
+            "Verification record · 2026-10-26",
+            "https://github.com/freedomxjayden-web/stock-atlas/blob/main/VERIFICATION.md"
+          ]
+        ]
+      },
+      "date": "2026-10-27",
+      "screenshots": [
+        {
+          "image": "stock-atlas-preview.png",
+          "size": [
+            1280,
+            800
+          ],
+          "alt": "stockPreviewAlt",
+          "date": "2026-10-27"
+        },
+        {
+          "image": "stock-atlas-analysis.png",
+          "size": [
+            1280,
+            800
+          ],
+          "alt": "analysisPreviewAlt",
+          "date": "2026-10-27"
+        }
+      ],
+      "cover": {
+        "image": "stock-atlas-cover.png",
+        "size": [
+          1200,
+          640
+        ],
+        "alt": "stock-atlas-coverAlt"
+      }
+    }
+  ],
+  "files": [
+    "https://alist-free-drive.onrender.com/GoogleDrive/study/中國近代史學習資料.pdf",
+    "https://alist-free-drive.onrender.com/GoogleDrive/study/中國近代史學習資料.docx",
+    "https://alist-free-drive.onrender.com/GoogleDrive/study/初三物理重點溫習_20頁詳細版.pdf",
+    "https://alist-free-drive.onrender.com/GoogleDrive/study/初三物理重點溫習_20頁詳細版.docx",
+    "https://alist-free-drive.onrender.com/GoogleDrive/study/英文學習資料_中英對照.pdf",
+    "https://alist-free-drive.onrender.com/GoogleDrive/study/英文學習資料_中英對照.docx"
+  ]
+}

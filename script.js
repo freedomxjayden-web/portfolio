@@ -16,12 +16,12 @@
   let previewTrigger = null;
 
   function updatePreview(project) {
-    const image = project.querySelector('.site-preview');
+    const image = previewTrigger?.closest('.project-visual')?.querySelector('.site-preview') || project.querySelector('.site-preview');
     document.getElementById('preview-title').textContent = project.querySelector('[data-project-title]').textContent;
-    previewImage.src = image.src;
-    previewImage.alt = image.alt;
-    previewImage.width = Number(image.getAttribute('width'));
-    previewImage.height = Number(image.getAttribute('height'));
+    previewImage.src = image.dataset.full || image.src;
+    previewImage.alt = image.dataset.fullAlt || image.alt;
+    previewImage.width = Number(image.dataset.fullWidth || image.getAttribute('width'));
+    previewImage.height = Number(image.dataset.fullHeight || image.getAttribute('height'));
     const directLink = project.querySelector('.primary-button');
     const previewLink = dialog.querySelector('.preview-open-project');
     previewLink.href = directLink.href;
@@ -34,6 +34,7 @@
     document.querySelector('meta[name="description"]').content = copy.pageDescription;
     document.querySelector('meta[property="og:title"]').content = copy.pageTitle;
     document.querySelector('meta[property="og:description"]').content = copy.pageDescription;
+    document.querySelector('meta[property="og:image:alt"]').content = copy.pageImageAlt;
     document.querySelectorAll('[data-i18n]').forEach(element => {
       const value = copy[element.dataset.i18n];
       if (typeof value === 'string') element.textContent = value;
@@ -43,6 +44,9 @@
     });
     document.querySelectorAll('[data-i18n-alt]').forEach(element => {
       element.alt = copy[element.dataset.i18nAlt];
+    });
+    document.querySelectorAll('[data-full-alt-key]').forEach(element => {
+      element.dataset.fullAlt = copy[element.dataset.fullAltKey];
     });
     languageButtons.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.lang === language)));
     document.querySelectorAll('[data-preview]').forEach(trigger => {
@@ -107,7 +111,7 @@
   document.querySelectorAll('[data-preview]').forEach(trigger => trigger.addEventListener('click', event => {
     const project = document.getElementById(trigger.dataset.preview);
     if (typeof dialog.showModal !== 'function') {
-      if (trigger.tagName === 'BUTTON') window.open(project.querySelector('.site-preview').src, '_blank', 'noopener,noreferrer');
+      if (trigger.tagName === 'BUTTON') window.open(trigger.closest('.project-visual').querySelector('.site-preview').dataset.full, '_blank', 'noopener,noreferrer');
       return;
     }
     if (trigger.tagName === 'A' && (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey)) return;
