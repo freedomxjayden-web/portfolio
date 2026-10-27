@@ -4,61 +4,39 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="以貓咪同最後補給站做主題，將部署、資源分配同生存挑戰放入一個瀏覽器塔防遊戲。">
-<meta name="theme-color" content="#f4f7fa">
-<title>喵哨站 — 設計與實作案例 | x 作品集</title>
+<meta name="theme-color" content="#F6F5F1">
+<title>喵哨站 — 作品介紹 | x 作品目錄</title>
 <link rel="canonical" href="https://freedomxjayden-web.github.io/portfolio/projects/cat-outpost.html">
-<meta property="og:title" content="喵哨站 — 設計與實作案例 | x 作品集">
+<meta property="og:title" content="喵哨站 — 作品介紹 | x 作品目錄">
 <meta property="og:description" content="以貓咪同最後補給站做主題，將部署、資源分配同生存挑戰放入一個瀏覽器塔防遊戲。">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://freedomxjayden-web.github.io/portfolio/projects/cat-outpost.html">
-<link rel="icon" href="../favicon.svg?v=9" type="image/svg+xml">
-<link rel="stylesheet" href="../styles.css?v=9">
-<script src="../content.js?v=9" defer>
+<link rel="icon" href="../favicon.svg?v=10" type="image/svg+xml">
+<link rel="stylesheet" href="../styles.css?v=10">
+<script src="../content.js?v=10" defer>
 </script>
-<script src="../script.js?v=9" defer>
+<script src="../script.js?v=10" defer>
 </script>
 </head>
 <body id="top" data-page="cat-outpost">
 <a class="skip-link" href="#main" data-i18n="skip">跳至主要內容</a>
-<div class="page-shell">
+    <div class="page-shell">
 <header class="site-header">
-<a class="brand" href="../index.html#home" aria-label="x 嘅作品集首頁" data-i18n-label="homeLabel">
-<span class="brand-symbol" aria-hidden="true">
-<i>
-</i>
-<i>
-</i>
-<i>
-</i>
-<i>
-</i>
-</span>
-<span data-i18n="portfolio">作品集</span>
-<span class="brand-period" aria-hidden="true">.</span>
+    <a class="brand" href="../index.html#home" data-i18n-label="homeLabel" aria-label="x 嘅作品目錄首頁">
+<span class="brand-name" translate="no">x</span>
+<span class="brand-divider" aria-hidden="true">/</span>
+<span data-i18n="portfolio" >作品目錄</span>
 </a>
-<nav id="primary-nav" class="main-nav" aria-label="主要導覽" data-i18n-label="navLabel">
-<a href="../index.html#home">
-<span data-i18n="navHome">首頁</span>
-</a>
-<a href="../index.html#work">
-<span data-i18n="navWork">作品</span>
-</a>
-<a href="../index.html#about">
-<span data-i18n="navAbout">關於</span>
-</a>
-<a href="../index.html#contact">
-<span data-i18n="navContact">聯絡</span>
-</a>
-</nav>
-<div class="header-tools">
-<div class="language-switch" role="group" aria-label="網站語言" data-i18n-label="language">
+    <div class="header-tools">
+<div class="language-switch" role="group" data-i18n-label="language" aria-label="網站語言">
 <button type="button" data-lang="zh" lang="zh-HK" aria-pressed="true">繁中</button>
 <span aria-hidden="true">/</span>
 <button type="button" data-lang="en" lang="en" aria-pressed="false">EN</button>
 </div>
-<button class="menu-button" type="button" aria-expanded="false" aria-controls="primary-nav">
-<span data-i18n="menu">選單</span>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="navigation-panel" data-i18n-label="menuOpen" aria-label="打開導覽選單">
 <span class="menu-icon" aria-hidden="true">
+<i>
+</i>
 <i>
 </i>
 <i>
@@ -67,110 +45,195 @@
 </button>
 </div>
 </header>
+    <dialog id="navigation-panel" class="navigation-dialog" aria-labelledby="navigation-title">
+<div class="drawer-header">
+<h2 data-i18n="menuTitle" id="navigation-title">導覽</h2>
+<button class="close-navigation" type="button" data-i18n-label="menuClose" aria-label="關閉導覽選單">
+<span aria-hidden="true">×</span>
+</button>
+</div>
+<p data-i18n="menuIntro" class="navigation-intro">我係 x，製作有用、有趣、容易使用嘅作品。</p>
+<nav id="primary-nav" class="main-nav" data-i18n-label="navLabel" aria-label="主要導覽">
+<a class="directory-link" href="../index.html#work">
+<span data-i18n="directoryTitle" >作品目錄</span>
+<span aria-hidden="true">↗</span>
+</a>
+<div class="nav-category">
+<h3 data-i18n="categoryGames" >遊戲</h3>
+<a class="nav-project" href="cat-outpost.html" aria-current="page">
+<strong data-i18n="cat-outpost-title" >喵哨站</strong>
+<span data-i18n="cat-outpost-menu" >貓咪塔防生存遊戲</span>
+</a>
+</div>
+<div class="nav-category">
+<h3 data-i18n="categoryWebsites" >網站</h3>
+<a class="nav-project" href="cloud-drive.html" >
+<strong data-i18n="cloud-drive-title" >雲端檔案庫</strong>
+<span data-i18n="cloud-drive-menu" >歷史、物理、英文溫習資料</span>
+</a>
+<a class="nav-project" href="stock-atlas.html" >
+<strong data-i18n="stock-atlas-title" >Stock Atlas</strong>
+<span data-i18n="stock-atlas-menu" >股票術語與分析工具</span>
+</a>
+</div>
+<div class="nav-category">
+<h3 data-i18n="categoryPrograms" >程式</h3>
+<p data-i18n="noPrograms" class="empty-category">暫時未有作品。</p>
+</div>
+<div class="drawer-contacts">
+<a class="text-link" href="https://www.instagram.com/freedomgunvdbeb/" target="_blank" rel="noopener noreferrer">
+<span data-i18n="instagram" >Instagram</span>
+<span aria-hidden="true">↗</span>
+<span data-i18n="newTab" class="sr-only">（於新分頁開啟）</span>
+</a>
+<a class="text-link" href="https://github.com/freedomxjayden-web" target="_blank" rel="noopener noreferrer">
+<span data-i18n="github" >GitHub</span>
+<span aria-hidden="true">↗</span>
+<span data-i18n="newTab" class="sr-only">（於新分頁開啟）</span>
+</a>
+</div>
+</nav>
+</dialog>
+    <noscript>
+<nav class="static-navigation" aria-label="作品分類">
+<a class="directory-link" href="../index.html#work">作品目錄</a>
+<div class="nav-category">
+<h3 data-i18n="categoryGames" >遊戲</h3>
+<a class="nav-project" href="cat-outpost.html" aria-current="page">
+<strong data-i18n="cat-outpost-title" >喵哨站</strong>
+<span data-i18n="cat-outpost-menu" >貓咪塔防生存遊戲</span>
+</a>
+</div>
+<div class="nav-category">
+<h3 data-i18n="categoryWebsites" >網站</h3>
+<a class="nav-project" href="cloud-drive.html" >
+<strong data-i18n="cloud-drive-title" >雲端檔案庫</strong>
+<span data-i18n="cloud-drive-menu" >歷史、物理、英文溫習資料</span>
+</a>
+<a class="nav-project" href="stock-atlas.html" >
+<strong data-i18n="stock-atlas-title" >Stock Atlas</strong>
+<span data-i18n="stock-atlas-menu" >股票術語與分析工具</span>
+</a>
+</div>
+<div class="nav-category">
+<h3 data-i18n="categoryPrograms" >程式</h3>
+<p data-i18n="noPrograms" class="empty-category">暫時未有作品。</p>
+</div>
+</nav>
+</noscript>
 <main id="main" tabindex="-1">
-<article id="cat-outpost" class="case-study" aria-labelledby="case-title">
+<div class="project-page-top">
 <a class="back-link" href="../index.html#work">
 <span aria-hidden="true">←</span>
-<span data-i18n="backWork">返回作品目錄</span>
+<span data-i18n="backWork" >返回作品目錄</span>
 </a>
-<header class="case-hero">
-<div class="case-kicker">
-<span class="case-number">02 /</span>
-<span data-i18n="caseEyebrow">設計與實作案例</span>
+<nav class="project-nav" aria-label="切換作品" data-i18n-label="projectNavLabel">
+<a href="cloud-drive.html" >
+<span data-i18n="cloud-drive-title" >雲端檔案庫</span>
+</a>
+<a href="cat-outpost.html" aria-current="page">
+<span data-i18n="cat-outpost-title" >喵哨站</span>
+</a>
+<a href="stock-atlas.html" >
+<span data-i18n="stock-atlas-title" >Stock Atlas</span>
+</a>
+</nav>
+</div>
+<article id="cat-outpost" class="project-page" aria-labelledby="case-title">
+<header class="project-hero">
+<div class="project-introduction">
+<div class="card-meta">
+<p data-i18n="cat-outpost-category" class="project-category">塔防遊戲</p>
 <span class="status-badge">
 <i aria-hidden="true">
 </i>
-<span data-i18n="live">已上線</span>
+<span data-i18n="live" >已上線</span>
 </span>
 </div>
 <h1 data-i18n="cat-outpost-title" id="case-title" data-project-title>喵哨站</h1>
 <p data-i18n="cat-outpost-purpose" class="case-purpose">以貓咪同最後補給站做主題，將部署、資源分配同生存挑戰放入一個瀏覽器塔防遊戲。</p>
 <div class="case-hero-actions">
 <a class="primary-button" href="https://freedomxjayden-web.github.io/cat-outpost-360/" target="_blank" rel="noopener noreferrer">
-<span data-i18n="openProject">打開作品</span>
+<span data-i18n="cat-outpost-cta" >即刻開玩</span>
 <span aria-hidden="true">↗</span>
-<span class="sr-only" data-i18n="newTab">（於新分頁開啟）</span>
+<span data-i18n="newTab" class="sr-only">（於新分頁開啟）</span>
 </a>
-<span data-i18n="cat-outpost-category" class="case-category">瀏覽器遊戲 · 塔防生存</span>
 </div>
-</header>
+</div>
 <figure class="case-figure">
 <div class="project-visual game-visual">
-<span class="visual-number" aria-hidden="true">02 /</span>
 <a class="image-link" href="../assets/cat-outpost-preview.png" target="_blank" rel="noopener noreferrer" data-preview="cat-outpost" aria-label="放大預覽：喵哨站">
 <img class="site-preview" src="../assets/cat-outpost-preview.png" width="740" height="450" alt="喵哨站開始畫面，三隻像素貓咪與守護最後補給站嘅標語。" data-i18n-alt="gamePreviewAlt" fetchpriority="high">
 </a>
-<span data-i18n="actualPreview" class="visual-label">實際畫面</span>
 <button class="expand-preview" type="button" data-preview="cat-outpost" aria-label="放大預覽：喵哨站">
-<span data-i18n="enlargePreview">放大預覽</span>
+<span data-i18n="enlargePreview" >放大預覽</span>
 <span aria-hidden="true">⤢</span>
 </button>
 </div>
 <figcaption>
-<span data-i18n="actualPreview">實際畫面</span>
-<span> / 2026-10-25</span>
+<span data-i18n="actualPreview" >實際畫面</span>
+<time datetime="2026-10-25">2026-10-25</time>
 </figcaption>
 </figure>
-<div class="case-content">
-<section class="case-block" aria-labelledby="features-title">
-<h2 data-i18n="featuresTitle" id="features-title">可以用佢做咩？</h2>
+</header>
+<div class="project-guide">
+<section class="guide-block" aria-labelledby="features-title">
+<h2 data-i18n="featuresTitle" id="features-title">可以做咩？</h2>
 <ul class="feature-list">
-<li data-i18n="cat-outpost-features0">選炮塔、揀空格部署，守住基地四周。</li>
-<li data-i18n="cat-outpost-features1">點選炮塔升級或換裝，喺戰況變化時調整防線。</li>
-<li data-i18n="cat-outpost-features2">支援暫停、震盪脈衝，同手機點格後確認部署。</li>
+<li data-i18n="cat-outpost-features0" >選炮塔、揀空格部署，守住基地四周。</li>
+<li data-i18n="cat-outpost-features1" >點選炮塔升級或換裝，喺戰況變化時調整防線。</li>
+<li data-i18n="cat-outpost-features2" >支援暫停、震盪脈衝，同手機點格後確認部署。</li>
 </ul>
 </section>
-<section class="case-block" aria-labelledby="build-title">
-<h2 data-i18n="buildTitle" id="build-title">點樣實作？</h2>
-<div>
-<p data-i18n="cat-outpost-build0">遊戲喺瀏覽器本機運行。公開部署包含 HTML 入口、JavaScript 同 CSS 資源，透過 GitHub Pages 發布。</p>
-<p data-i18n="cat-outpost-build1">最高生存紀錄同音效設定保存在瀏覽器本機，毋須登入。介面提供選塔、部署、升級同換裝嘅操作流程。</p>
-<ol class="build-flow">
-<li>
-<span class="flow-number">01</span>
-<span data-i18n="cat-outpost-flow0">選塔與部署</span>
-</li>
-<li>
-<span class="flow-number">02</span>
-<span data-i18n="cat-outpost-flow1">本機遊戲運行</span>
-</li>
-<li>
-<span class="flow-number">03</span>
-<span data-i18n="cat-outpost-flow2">本機紀錄與設定</span>
-</li>
+<section class="guide-block" aria-labelledby="usage-title">
+<h2 data-i18n="usageTitle" id="usage-title">點樣開始？</h2>
+<ol class="usage-list">
+<li data-i18n="cat-outpost-use0" >打開遊戲，按畫面提示開始。</li>
+<li data-i18n="cat-outpost-use1" >選炮塔，再揀空格部署；手機需要確認部署。</li>
+<li data-i18n="cat-outpost-use2" >選中炮塔升級或換裝，隨戰況調整防線。</li>
 </ol>
-</div>
 </section>
-<section class="case-block" aria-labelledby="proof-title">
-<h2 data-i18n="proofTitle" id="proof-title">驗證與限制</h2>
-<div>
-<p data-i18n="cat-outpost-proof0">開始畫面擷取於 2026-10-25。公開說明記錄咗鍵盤操作同手機確認部署方式。</p>
-<p data-i18n="cat-outpost-proof1">公開儲存庫主要存放正式部署檔案，未公開嘅原始架構、演算法同開發流程不作推測。</p>
-<p data-i18n="cat-outpost-proof2">本機紀錄依賴瀏覽器儲存；清除網站資料或轉用其他裝置，紀錄唔會自動同步。</p>
+</div>
+<details id="implementation" class="implementation-disclosure">
+<summary>
+<span data-i18n="detailsTitle" >實作、來源與限制</span>
+<span class="disclosure-icon" aria-hidden="true">+</span>
+</summary>
+<div class="implementation-content">
+<section class="case-block">
+<h2 data-i18n="buildTitle" >點樣實作？</h2>
+<p data-i18n="cat-outpost-build0" >遊戲喺瀏覽器本機運行。公開部署包含 HTML 入口、JavaScript 同 CSS 資源，透過 GitHub Pages 發布。</p>
+<p data-i18n="cat-outpost-build1" >最高生存紀錄同音效設定保存在瀏覽器本機，毋須登入。介面提供選塔、部署、升級同換裝嘅操作流程。</p>
+</section>
+<section class="case-block">
+<h2 data-i18n="proofTitle" >驗證與限制</h2>
+<p data-i18n="cat-outpost-proof0" >開始畫面擷取於 2026-10-25。公開說明記錄咗鍵盤操作同手機確認部署方式。</p>
+<p data-i18n="cat-outpost-proof1" >公開儲存庫主要存放正式部署檔案，未公開嘅原始架構、演算法同開發流程不作推測。</p>
+<p data-i18n="cat-outpost-proof2" >本機紀錄依賴瀏覽器儲存；清除網站資料或轉用其他裝置，紀錄唔會自動同步。</p>
 <h3 data-i18n="sourceLabel" class="source-heading">參考公開資料</h3>
 <div class="source-links">
 <a class="text-link" href="https://github.com/freedomxjayden-web/cat-outpost-360" target="_blank" rel="noopener noreferrer">
-<span data-i18n="cat-outpost-source0">公開部署與操作說明</span>
+<span data-i18n="cat-outpost-source0" >公開部署與操作說明</span>
 <span aria-hidden="true">↗</span>
-<span class="sr-only" data-i18n="newTab">（於新分頁開啟）</span>
+<span data-i18n="newTab" class="sr-only">（於新分頁開啟）</span>
 </a>
-</div>
 </div>
 </section>
 </div>
+</details>
 <section class="case-outro" aria-labelledby="outro-title">
 <div>
-<h2 data-i18n="nextAction" id="outro-title">了解之後，直接試用。</h2>
-<p data-i18n="nextActionText">實際功能同內容，以作品網站為準。</p>
+<h2 data-i18n="nextAction" id="outro-title">準備好就打開。</h2>
+<p data-i18n="nextActionText" >直接進入作品網站，開始使用。</p>
 </div>
 <div class="case-hero-actions">
 <a class="primary-button" href="https://freedomxjayden-web.github.io/cat-outpost-360/" target="_blank" rel="noopener noreferrer">
-<span data-i18n="openProject">打開作品</span>
+<span data-i18n="cat-outpost-cta" >即刻開玩</span>
 <span aria-hidden="true">↗</span>
-<span class="sr-only" data-i18n="newTab">（於新分頁開啟）</span>
+<span data-i18n="newTab" class="sr-only">（於新分頁開啟）</span>
 </a>
 <a class="text-link" href="../index.html#work">
-<span data-i18n="backWork">返回作品目錄</span>
+<span data-i18n="backWork" >返回作品目錄</span>
 <span aria-hidden="true">→</span>
 </a>
 </div>
@@ -185,20 +248,27 @@
 </h2>
 </div>
 <button class="close-preview" type="button" autofocus>
-<span data-i18n="closePreview">關閉</span>
+<span data-i18n="closePreview" >關閉</span>
 <span aria-hidden="true">×</span>
 </button>
 </div>
 <div class="dialog-image-wrap">
-<img id="preview-image" alt="">
+<img id="preview-image" alt="" width="960" height="338">
 </div>
-<p data-i18n="screenshotNote" class="dialog-note">靜態畫面預覽；使用作品請按「打開作品」。</p>
+<div class="dialog-bottom">
+<p data-i18n="screenshotNote" class="dialog-note">實際畫面截圖；按使用按鈕進入作品網站。</p>
+<a class="primary-button preview-open-project" href="https://alist-free-drive.onrender.com/GoogleDrive/study" target="_blank" rel="noopener noreferrer">
+<span data-i18n="openProject" >打開作品</span>
+<span aria-hidden="true">↗</span>
+<span data-i18n="newTab" class="sr-only">（於新分頁開啟）</span>
+</a>
+</div>
 </dialog>
 <footer class="site-footer">
 <span>© <span id="year">2026</span> x</span>
 <span data-i18n="footerLine" class="footer-line">有用、有趣、容易使用。</span>
 <a href="#top" class="back-top">
-<span data-i18n="backTop">返回頁首</span>
+<span data-i18n="backTop" >返回頁首</span>
 <span aria-hidden="true">↑</span>
 </a>
 </footer>
