@@ -54,6 +54,7 @@
       trigger.setAttribute('aria-label', copy.previewPrefix + project.querySelector('[data-project-title]').textContent);
     });
     if (activePreview) updatePreview(activePreview);
+    document.dispatchEvent(new CustomEvent('portfolio:language', {detail:{language}}));
   }
 
   let initialLanguage = 'zh';
